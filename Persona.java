@@ -9,10 +9,10 @@ package com.mycompany.cleancode4567;
  * @author sergi
  */
 public class Persona {
-    String dni;
-    String nombre;
-    String apellido;
-    int edad;
+    private String dni;
+    private String nombre;
+    private String apellido;
+    private int edad;
 
     public Persona(String dni, String nombre, String apellido, int edad) {
         this.dni = dni;
